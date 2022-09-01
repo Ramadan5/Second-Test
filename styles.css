@@ -1,0 +1,82 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    max-width: 1440px;
+    min-width: 375px;
+    font-size: 15px;
+    background-color: beige;
+    font-family: 'Lexend Deca', sans-serif;
+}
+div {
+    color:white;
+    float: left;
+    max-width: 250px;
+    margin-top: 11%;
+}
+.first-div {
+    background-color: var(--Bright-orange);
+    border-radius:10px 0 0 10px;
+    margin-left: 28%;
+}
+.second-div {
+    background-color: var(--Dark-cyan);
+}
+.third-div {
+    background-color: var(--Very-dark-cyan);
+    border-radius:0 10px 10px 0;
+}
+img {
+    display:block;
+    padding:30px;
+}
+h1 {
+    padding:0 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin: 10px 0;
+}
+p {
+    color: var(--Transparent-white);
+    padding:20px;
+}
+aside {
+    padding:10px;
+    margin:40px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius:50px;
+    max-width: 120px;
+    text-align: center;
+}
+.first-aside {
+    color: var(--Bright-orange);
+}
+.second-aside {
+    color: var(--Dark-cyan);
+}
+.third-aside {
+    color: var(--Very-dark-cyan);
+}
+.first-aside:hover {
+    background-color: var(--Bright-orange);
+    color:white;
+    cursor:pointer;
+}
+.second-aside:hover {
+    background-color: var(--Dark-cyan);
+    color:white;
+    cursor:pointer;
+}
+.third-aside:hover {
+    background-color: var(--Very-dark-cyan);
+    color:white;
+    cursor:pointer;
+}
